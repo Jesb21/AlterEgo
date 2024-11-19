@@ -1,0 +1,28 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-weight: bold;
+}
+
+.search-button {
+    transition: background-color 0.8s;
+}
+
+.search-button:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+#searchForm {
+    min-width: 200px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+footer .bi {
+    font-size: 1.5rem;
+}
